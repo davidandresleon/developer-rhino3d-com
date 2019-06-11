@@ -184,13 +184,12 @@ Or, if you just use an exclamation point `!` at the end (which in a script means
 The script simply toggles the crosshairs ON and OFF. But if you wanted a script that always turned them ON and another that always turned them OFF, here's what they would look like:
 
 Always ON version:
-
 ```
   -_Options _Appearance _Visibility
   _Crosshairs=_Show !
-</code>
+```
 Always OFF version:
-<code>
+```
   -_Options _Appearance _Visibility
   _Crosshairs=_Hide !
 ```
